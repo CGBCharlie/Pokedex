@@ -1,0 +1,91 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.navbar-custom {
+    /* background-color: #e3350d; */
+    background-color: #c81630;
+}
+
+.brand-custom {
+    height: 4.7rem;
+    width: 13rem;
+}
+
+.btn-outline-success {
+    color: #ebcc61 !important;
+    border-color: #ebcc61 !important;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+    color: #fff;
+    background-color: #1699cb;
+    border-color: #285e8e !important;
+    outline: 0 !important;
+}
+
+.card-custom {
+    margin: auto;
+    width: 60%;
+    background-color: #f2f2f2!important;
+    border-color: whitesmoke !important;
+    /* color: whitesmoke !important; */
+}
+
+.imgcard {
+    width: 50%;
+    height: 50%;
+}
+
+body {
+    background-image: url('../images/double-bubble-outline.png');
+    background-attachment: fixed;
+}
+
+.nav-link {
+    color: #1699cb;
+}
+
+.mgT10 {
+    margin-top: 10px;
+}
+
+.center {
+    margin: auto !important;
+    display: inline;
+    text-align: center;
+}
+
+.orange {
+    background-color: #FF9933;
+}
+
+.pink {
+    background-color: palevioletred;
+}
+
+.progress {
+    background-color: lightgrey;
+}
+
+@media (max-width: 600px) {
+    .card-custom {
+        margin: auto;
+        width: 100%;
+    }
+
+    .imgcard {
+        width: 90%;
+        height: 90%;
+    }
+  }
+
+/* .button2:hover {
+    background-color: #a68072;
+    color: white;
+}
+
+button:focus {
+    outline: 0 !important;
+} */
